@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+  
+  <bean id="ldapDatabaseUserDAO"  class="fr.paris.lutece.plugins.mylutece.modules.ldapdatabase.authentication.business.LdapUserDAO" />
+  <bean id="ldapDatabaseDAO"  class="fr.paris.lutece.plugins.mylutece.modules.ldapdatabase.authentication.business.LdapDatabaseDAO" />
+  <bean id="mylutece-ldapdatabase.authentication" class="fr.paris.lutece.plugins.mylutece.modules.ldapdatabase.authentication.LDAPDatabaseAuthentication">
+  	<property name="dAO" ref="ldapDatabaseDAO" />
+  </bean>
+</beans>
