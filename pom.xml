@@ -33,7 +33,7 @@
 
 	<properties>
 		<componentName>mylutece-ldapdatabase</componentName>
-		<jiraProjectName>MYLUTECEOPENIDDATABASE</jiraProjectName>
+		<jiraProjectName>MYLUTECELDAPDATABASE</jiraProjectName>
 		<jiraComponentId>10206</jiraComponentId>
 	</properties>
     <scm>
